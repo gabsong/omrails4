@@ -8,7 +8,7 @@ by [Mattan Griffel](http://mattangriffel.com)
 Dev Environment
 ---------------
 * MacBook Pro mid-2009
-* OS X Mountain Lion 10.8.4
+* OS X Mavericks 10.9
 * Homebrew 0.9.5
 * ruby 2.0.0p247
 * Rails 4.0.0
