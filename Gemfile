@@ -43,7 +43,10 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: '3'
 gem 'devise', '~> 3.1.1'
 
 # Use Paperclip for file attachment management
-gem "paperclip", "~> 3.0"
+gem 'paperclip', '~> 3.0'
+
+# Use Amazon AWS for Paperclip file storage
+gem 'aws-sdk', '~> 1.23.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
