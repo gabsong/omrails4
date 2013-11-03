@@ -6,9 +6,10 @@
       <div class="panel-heading center">
         <%= image_tag @pin.image.url(:medium) %>
       </div>
+      
       <div class="panel-body">
         <p><%= @pin.description %></p>
-        <p><strong><%= @pin.user.email if @pin.user %></strong></p>
+        <p><strong><%= @pin.user.name if @pin.user %></strong></p>
 
         <% if current_user == @pin.user %>
           <%= link_to edit_pin_path(@pin) do %>
@@ -19,9 +20,10 @@
           <%= link_to @pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
             <span class="glyphicon glyphicon-trash"></span>
             Delete
-          <% end %>
-        <% end %>
+          <% end %> 
+        <% end %> 
       </div>
+      
     </div>
   </div>
 </div>
