@@ -52,6 +52,10 @@ gem 'aws-sdk', '~> 1.23.0'
 # Masonry-Rails for arranging item elements to a grid
 gem 'masonry-rails', '~> 0.2.0'
 
+# Pagination library for Rails
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
